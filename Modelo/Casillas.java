@@ -8,9 +8,9 @@ public class Casillas
     private Sector sector;
     private boolean editable;
 
-    public Casilla() {}
+    public void Casilla() {}
 
-    public Casilla(int valor, int posX, int posY, Sector sector, boolean editable) {
+    public void Casilla(int valor, int posX, int posY, Sector sector, boolean editable) {
   
         this.valor   = valor;
         this.posX   = posX;
