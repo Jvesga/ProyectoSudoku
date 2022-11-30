@@ -1,8 +1,0 @@
-package Modelo;
-
-public enum Sector
-{
- PRIMERO, SEGUNDO, TERCERO,
- CUARTO, QUINTO, SEXTO,
- SEPTIMO, OCTAVO, NOVENO
-}
