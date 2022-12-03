@@ -105,7 +105,7 @@ public class Principal {
 
 			int number = 0;
 
-			File file = new File("./src/input-sudoku.txt");
+			File file = new File("Sudoku V1.0/Matrices/Matriz2.txt");
 			Scanner scanner = new Scanner(file);
 
 			for(int row = 0; row < 9; row++) {
@@ -144,7 +144,7 @@ public class Principal {
 
 		if(ss.solve(0, 0)) {
 
-			System.out.println("\nSolved!");
+			System.out.println("\nResuelto!");
 
 			//print out solution
 			for (int[] r : ss.sudoku)
